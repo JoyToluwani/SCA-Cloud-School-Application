@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'docker --version'
+                echo "my first pipeline !!!"
             }
         }
     }
